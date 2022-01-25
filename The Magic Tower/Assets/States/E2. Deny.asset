@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2d81a4de9fa41439c9ee8121df8812, type: 3}
+  m_Name: E2. Deny
+  m_EditorClassIdentifier: 
+  storyText: '"HAH, don''t lie to me! Because I am the demon! Go to hell for being
+    dishonest!"
+
+
+    What should you do?
+
+
+    1. Run.'
+  nextStates:
+  - {fileID: 11400000, guid: 1fe8ff040e50c754b87c5ebeb3a5b280, type: 2}
+  ID: E2

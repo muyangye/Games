@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2d81a4de9fa41439c9ee8121df8812, type: 3}
+  m_Name: Bad Ending
+  m_EditorClassIdentifier: 
+  storyText: 'You killed the demon, he vanished into a smoke surrounding you. You
+    felt very uncomfortable and fainted.
+
+
+    ......
+
+
+    Waking up, you look at
+    yourself, shockingly finding the fact that you have become the demon!
+
+
+    [Bad
+    Ending]
+
+
+    [Press any key to continue]'
+  nextStates:
+  - {fileID: 11400000, guid: 1ea281aa1c5aa9d4193c0e59749399f2, type: 2}
+  ID: BE

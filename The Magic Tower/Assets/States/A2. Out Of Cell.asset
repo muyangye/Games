@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2d81a4de9fa41439c9ee8121df8812, type: 3}
+  m_Name: A2. Out Of Cell
+  m_EditorClassIdentifier: 
+  storyText: 'The thief helped you get out of the cell. He told you that the tower
+    has a maximum of 100 floors. He left, claiming the treasure he wants is on the
+    current floor(10). You guess the princess is locked on the top floor.
+
+
+    What
+    should you do?
+
+    1. Go upstairs.
+
+    2. Tail after the thief.'
+  nextStates:
+  - {fileID: 11400000, guid: 0665f018d431dac4ca7dd2cc1fbd6358, type: 2}
+  - {fileID: 11400000, guid: 0cf435fcfd49ec84d8c1bbb7ff3d58dd, type: 2}
+  ID: A2

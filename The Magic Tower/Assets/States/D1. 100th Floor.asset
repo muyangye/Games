@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2d81a4de9fa41439c9ee8121df8812, type: 3}
+  m_Name: D1. 100th Floor
+  m_EditorClassIdentifier: 
+  storyText: "You are finally on the 100th floor. The princess is in front of you.
+    Surprisingly, you see the thief. He asks, \"Sorry, but did you see my hoe?\"\n\nWhat
+    should you do?\n\n1. \u201CYes, I picked it up and used it.\u201D\n2. \"I am
+    sorry, I didn't see it.\""
+  nextStates:
+  - {fileID: 11400000, guid: f79059124611b014ca1a3ddf5c8757e5, type: 2}
+  - {fileID: 11400000, guid: a04daa044f073da48a984ec968c5cb79, type: 2}
+  ID: D1
