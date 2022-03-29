@@ -19,7 +19,7 @@ public class UFOSpawner : MonoBehaviour
     {
         if (Random.Range(0, chance) == 1 && (!ufo || ufo.destroyed))
         {
-            ufo = Instantiate(ufoPrefab, new Vector3(7, 2.45f, 0), Quaternion.identity);
+            ufo = Instantiate(ufoPrefab, new Vector3(7, 2.5f, 0), Quaternion.identity);
         }
     }
 }

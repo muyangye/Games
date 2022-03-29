@@ -110,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.16, y: 0.2}
   m_EdgeRadius: 0
 --- !u!50 &8582132233026620582
 Rigidbody2D:
@@ -246,7 +246,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6a6078aef315c5b46b1ed5a840e9f133, type: 3}
   - {fileID: 21300000, guid: 37bf553de1e99404d91c53c8bf9b7911, type: 3}
   scoreEarned: 40
-  chanceForFire: 2700
+  chanceForFire: 1500
   enemyBullet: {fileID: 8346376323916311548, guid: 65b274bf4069f49bf98fbaa5ec070f57, type: 3}
   enemyBullet2: {fileID: 4463017832768144748, guid: 36fb8fdd997b541458a8361fb55eae22, type: 3}
   invaderMoveFrequency: 1

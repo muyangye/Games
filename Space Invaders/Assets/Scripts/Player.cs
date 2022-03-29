@@ -7,9 +7,10 @@ public class Player : MonoBehaviour
     public float speed = 1.5f;
     public Weapon laserPrefab;
     private Weapon fired;
-    private AudioSource fireAudio;
+    public AudioSource[] audios;
+    public AudioSource fireAudio;
+    public AudioSource deathAudio;
     public GameManager gameManager;
-
 
     public Sprite[] animSprites;
     private int index;
@@ -22,7 +23,9 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        fireAudio = GetComponent<AudioSource>();
+        audios = GetComponents<AudioSource>();
+        fireAudio = audios[0];
+        deathAudio = audios[1];
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         ivPositions = GameObject.Find("InvaderPositions").GetComponent<IVPositions>();
         spRenderer = GetComponent<SpriteRenderer>();
@@ -93,6 +96,7 @@ public class Player : MonoBehaviour
     {
         // We want to play the death sound so we need to destroy this invader 0.4 seconds later
         ivPositions.active = false; 
+        deathAudio.Play();
         StartCoroutine("UpdateSprite");
 
         yield return new WaitForSeconds(1f);
