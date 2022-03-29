@@ -86,12 +86,12 @@ public class IVPositions : MonoBehaviour
                 direction *= -1;
                 transform.position = transform.position + new Vector3(0f, -0.24f, 0f);
                 transform.position += direction * speed;
-                moveFrequency = moveFrequency - 0.07f;
+                moveFrequency = moveFrequency - 0.1f;
 
                 // Update each individual invader's sprite animation frequency
                 foreach (Transform invaderTransform in transform)
                 {
-                    invaderTransform.gameObject.GetComponent<Invader>().invaderMoveFrequency -= 0.07f;
+                    invaderTransform.gameObject.GetComponent<Invader>().invaderMoveFrequency -= 0.1f;
                 }
 
                     break;
@@ -102,12 +102,12 @@ public class IVPositions : MonoBehaviour
                 direction *= -1;
                 transform.position = transform.position + new Vector3(0f, -0.24f, 0f);
                 transform.position += direction * speed;
-                moveFrequency = moveFrequency - 0.07f;
+                moveFrequency = moveFrequency - 0.1f;
 
                 // Update each individual invader's sprite animation frequency
                 foreach (Transform invaderTransform in transform)
                 {
-                    invaderTransform.gameObject.GetComponent<Invader>().invaderMoveFrequency -= 0.07f;
+                    invaderTransform.gameObject.GetComponent<Invader>().invaderMoveFrequency -= 0.1f;
                 }
                 break;
             }
